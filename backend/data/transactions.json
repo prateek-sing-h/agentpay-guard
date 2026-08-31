@@ -1,0 +1,248 @@
+[
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 6000.0,
+    "quantity": 2,
+    "decision": "APPROVED",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "decision_reason": "Transaction has low risk.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively low.",
+      "Transaction quantity is moderate."
+    ],
+    "timestamp": "2026-08-31T20:45:44.478733"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 6000.0,
+    "quantity": 2,
+    "decision": "APPROVED",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "decision_reason": "Transaction has low risk.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively low.",
+      "Transaction quantity is moderate.",
+      "Transaction frequency is within normal limits."
+    ],
+    "timestamp": "2026-08-31T20:47:44.492581"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Backpack",
+    "category": "Fashion",
+    "amount": 5000.0,
+    "quantity": 2,
+    "decision": "APPROVED",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "decision_reason": "Transaction has low risk.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively low.",
+      "Transaction quantity is moderate.",
+      "Transaction frequency is within normal limits."
+    ],
+    "timestamp": "2026-08-31T20:50:26.076894"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 12000.0,
+    "quantity": 2,
+    "decision": "BLOCKED",
+    "risk_score": null,
+    "risk_level": null,
+    "decision_reason": "Transaction amount \u20b912000.0 exceeds the agent limit of \u20b910000.0.",
+    "policy_reasons": [
+      "Transaction amount \u20b912000.0 exceeds the agent limit of \u20b910000.0."
+    ],
+    "risk_reasons": [],
+    "timestamp": "2026-08-31T20:50:26.100994"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Running Shoes",
+    "category": "Fashion",
+    "amount": 9000.0,
+    "quantity": 2,
+    "decision": "HUMAN_APPROVAL_REQUIRED",
+    "risk_score": 35,
+    "risk_level": "MEDIUM",
+    "decision_reason": "Transaction has medium risk and requires human approval.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction is close to the agent's spending limit.",
+      "Transaction quantity is moderate.",
+      "Transaction frequency is within normal limits."
+    ],
+    "timestamp": "2026-08-31T20:50:26.121001"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Smart Watch",
+    "category": "Electronics",
+    "amount": 8000.0,
+    "quantity": 1,
+    "decision": "APPROVED",
+    "risk_score": 20,
+    "risk_level": "LOW",
+    "decision_reason": "Transaction has low risk.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively high.",
+      "Transaction frequency is within normal limits."
+    ],
+    "timestamp": "2026-08-31T20:50:26.145918"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Smart Watch",
+    "category": "Electronics",
+    "amount": 16000.0,
+    "quantity": 2,
+    "decision": "BLOCKED",
+    "risk_score": null,
+    "risk_level": null,
+    "decision_reason": "Transaction amount \u20b916000.0 exceeds the agent limit of \u20b910000.0.",
+    "policy_reasons": [
+      "Transaction amount \u20b916000.0 exceeds the agent limit of \u20b910000.0."
+    ],
+    "risk_reasons": [],
+    "timestamp": "2026-08-31T20:50:26.166964"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 18000.0,
+    "quantity": 3,
+    "decision": "BLOCKED",
+    "risk_score": null,
+    "risk_level": null,
+    "decision_reason": "Transaction amount \u20b918000.0 exceeds the agent limit of \u20b910000.0.",
+    "policy_reasons": [
+      "Transaction amount \u20b918000.0 exceeds the agent limit of \u20b910000.0."
+    ],
+    "risk_reasons": [],
+    "timestamp": "2026-08-31T20:50:26.187975"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Running Shoes",
+    "category": "Fashion",
+    "amount": 9000.0,
+    "quantity": 2,
+    "decision": "HUMAN_APPROVAL_REQUIRED",
+    "risk_score": 50,
+    "risk_level": "MEDIUM",
+    "decision_reason": "Transaction has medium risk and requires human approval.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction is close to the agent's spending limit.",
+      "Transaction quantity is moderate.",
+      "Agent has attempted 7 transactions within the last minute."
+    ],
+    "timestamp": "2026-08-31T20:50:26.210000"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Running Shoes",
+    "category": "Fashion",
+    "amount": 9000.0,
+    "quantity": 2,
+    "decision": "HUMAN_APPROVAL_REQUIRED",
+    "risk_score": 50,
+    "risk_level": "MEDIUM",
+    "decision_reason": "Transaction has medium risk and requires human approval.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction is close to the agent's spending limit.",
+      "Transaction quantity is moderate.",
+      "Agent has attempted 8 transactions within the last minute."
+    ],
+    "timestamp": "2026-08-31T20:50:26.227996"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 12000.0,
+    "quantity": 2,
+    "decision": "BLOCKED",
+    "risk_score": null,
+    "risk_level": null,
+    "decision_reason": "Transaction amount \u20b912000.0 exceeds the agent limit of \u20b910000.0.",
+    "policy_reasons": [
+      "Transaction amount \u20b912000.0 exceeds the agent limit of \u20b910000.0."
+    ],
+    "risk_reasons": [],
+    "timestamp": "2026-08-31T20:50:26.246004"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Backpack",
+    "category": "Fashion",
+    "amount": 5000.0,
+    "quantity": 2,
+    "decision": "HUMAN_APPROVAL_REQUIRED",
+    "risk_score": 45,
+    "risk_level": "MEDIUM",
+    "decision_reason": "Transaction has medium risk and requires human approval.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively low.",
+      "Transaction quantity is moderate.",
+      "Agent has attempted 10 transactions within the last minute."
+    ],
+    "timestamp": "2026-08-31T20:50:26.269000"
+  }
+]

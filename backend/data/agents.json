@@ -1,0 +1,13 @@
+[
+  {
+    "agent_id": "agent_001",
+    "name": "Shopping Agent",
+    "reputation_score": 94,
+    "daily_limit": 25000,
+    "transaction_limit": 10000,
+    "allowed_categories": [
+      "Electronics",
+      "Fashion"
+    ]
+  }
+]
