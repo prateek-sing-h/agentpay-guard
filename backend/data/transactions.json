@@ -244,5 +244,67 @@
       "Agent has attempted 10 transactions within the last minute."
     ],
     "timestamp": "2026-08-31T20:50:26.269000"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 6000.0,
+    "quantity": 2,
+    "decision": "APPROVED",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "decision_reason": "Transaction has low risk.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively low.",
+      "Transaction quantity is moderate.",
+      "Transaction frequency is within normal limits."
+    ],
+    "timestamp": "2026-09-01T16:58:38.828319"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 6000.0,
+    "quantity": 2,
+    "decision": "APPROVED",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "decision_reason": "Transaction has low risk.",
+    "policy_reasons": [
+      "Transaction amount is within the allowed limit.",
+      "Product category is allowed.",
+      "Quantity is within the allowed limit."
+    ],
+    "risk_reasons": [
+      "High agent reputation.",
+      "Transaction amount is relatively low.",
+      "Transaction quantity is moderate.",
+      "Transaction frequency is within normal limits."
+    ],
+    "timestamp": "2026-09-01T16:58:40.389693"
+  },
+  {
+    "agent_id": "agent_001",
+    "product": "Wireless Headphones",
+    "category": "Electronics",
+    "amount": 50000.0,
+    "quantity": 10,
+    "decision": "BLOCKED",
+    "risk_score": null,
+    "risk_level": null,
+    "decision_reason": "Transaction amount \u20b950000.0 exceeds the agent limit of \u20b910000.0.",
+    "policy_reasons": [
+      "Transaction amount \u20b950000.0 exceeds the agent limit of \u20b910000.0."
+    ],
+    "risk_reasons": [],
+    "timestamp": "2026-09-01T16:59:00.715617"
   }
 ]

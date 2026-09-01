@@ -9,6 +9,7 @@ from engine.decision_engine import make_decision
 from services.transaction_service import save_transaction
 from services.transaction_service import get_agent_transactions
 from services.simulation_service import generate_transaction
+from services.ai_service import parse_intent
 
 
 app = FastAPI(
@@ -45,7 +46,6 @@ def health():
     }
 
 
-@app.post("/evaluate-transaction")
 @app.post("/evaluate-transaction")
 def evaluate_transaction(transaction: TransactionRequest):
 
@@ -136,3 +136,22 @@ def simulate_transactions(count: int = 10):
         "total_transactions": count,
         "results": results
     }
+
+@app.post("/parse-intent")
+def parse_user_intent(text: str):
+
+    intent = parse_intent(text)
+
+    if intent["product"] == "Unknown":
+        raise HTTPException(
+            status_code=400,
+            detail="Could not identify the product."
+        )
+
+    if intent["amount"] is None:
+        raise HTTPException(
+            status_code=400,
+            detail="Could not identify the amount."
+        )
+
+    return intent
